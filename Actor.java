@@ -1,8 +1,33 @@
-import com.modeliosoft.modelio.javadesigner.annotations.objid;
+package sdpmm;
+import java.util.HashSet;
+import java.util.Set;
 
-@objid ("5ffb024b-15c6-40b9-8d82-d19d58b35eae")
-public class Actor {
-    @objid ("fb8bf3c9-5106-4254-acca-54642d5b6b55")
-    public String[] implementedRole;
+
+/**
+ * <!-- begin-user-doc -->
+ * <!--  end-user-doc  -->
+ * @generated
+ */
+
+public class Actor
+{
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public Set<Role> implementedRole;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 */
+	public Actor(){
+		super();
+	}
 
 }
+

@@ -7,23 +7,14 @@ package sdpmm;
  * @generated
  */
 
-public class Activity
+public class Project extends WorkGraph
 {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
 	 * @generated
-	 * @ordered
 	 */
-	
-	public String name;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!--  end-user-doc  -->
-	 * @generated
-	 */
-	public Activity(){
+	public Project(){
 		super();
 	}
 

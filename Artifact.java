@@ -1,5 +1,31 @@
-import com.modeliosoft.modelio.javadesigner.annotations.objid;
+package sdpmm;
 
-@objid ("fff5c9a2-f39a-4e1a-b474-325ac55a91de")
-public class Artifact {
+
+/**
+ * <!-- begin-user-doc -->
+ * <!--  end-user-doc  -->
+ * @generated
+ */
+
+public class Artifact
+{
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String name;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 */
+	public Artifact(){
+		super();
+	}
+
 }
+

@@ -1,5 +1,31 @@
-import com.modeliosoft.modelio.javadesigner.annotations.objid;
+package sdpmm;
 
-@objid ("83fd8c34-f851-4801-a699-5f074a8eb10d")
-public class Event {
+
+/**
+ * <!-- begin-user-doc -->
+ * <!--  end-user-doc  -->
+ * @generated
+ */
+
+public class Event
+{
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String name;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 */
+	public Event(){
+		super();
+	}
+
 }
+

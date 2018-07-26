@@ -1,4 +1,5 @@
 package sdpmm;
+import java.util.Date;
 
 
 /**
@@ -7,7 +8,7 @@ package sdpmm;
  * @generated
  */
 
-public class Activity
+public class DocumentAccess
 {
 	/**
 	 * <!-- begin-user-doc -->
@@ -16,14 +17,23 @@ public class Activity
 	 * @ordered
 	 */
 	
-	public String name;
+	public UsageEnum type;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public Date date;
 
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!--  end-user-doc  -->
 	 * @generated
 	 */
-	public Activity(){
+	public DocumentAccess(){
 		super();
 	}
 

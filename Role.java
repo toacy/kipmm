@@ -1,5 +1,31 @@
-import com.modeliosoft.modelio.javadesigner.annotations.objid;
+package sdpmm;
 
-@objid ("6f1990a7-dfc6-4a57-b6cf-cec7a58256c9")
-public class Role {
+
+/**
+ * <!-- begin-user-doc -->
+ * <!--  end-user-doc  -->
+ * @generated
+ */
+
+public class Role
+{
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 * @ordered
+	 */
+	
+	public String name;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!--  end-user-doc  -->
+	 * @generated
+	 */
+	public Role(){
+		super();
+	}
+
 }
+
